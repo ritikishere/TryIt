@@ -1,0 +1,98 @@
+
+.container {
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+canvas {
+    background: linear-gradient( rgb(165, 81, 42) ,#e48d53,#e48d53, rgb(165, 81, 42));
+    background-size: cover;
+    
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#gameCanvas{
+    width: 100vw;
+    height: 100vh;
+}
+
+#threel{
+    height: 0;
+    width: 0;
+}
+
+.toggle-btn{
+    height: 0;
+    width: 0;
+}
+
+#navbar{
+    height: 0;
+    width: 0;
+}
+
+
+#topbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 9vh;
+    width: 100vw;
+    background: linear-gradient(#000000, #222222);
+    border-bottom: 2px solid black;
+    transition: top 0.3s ease;
+
+}
+
+
+#topbar ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+    
+    align-items: center;
+}
+
+#topbar ul li {
+    text-decoration: white;
+    text-decoration-color: white;
+}
+#topbar ul li a:hover{
+    background: linear-gradient( rgb(165, 81, 42) ,#e48d53,#e48d53, rgb(165, 81, 42));
+}
+
+#topbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6vmax;
+}
+
+#fhreel{
+    height: 0.5vw;
+    width: 0.5vw;
+}
+
+.foggle-btn{
+    position: fixed;
+    top: 4vh;
+    left: 0.9vh;
+    cursor: pointer;
+    transition: top 0.3 sec ease;
+
+    
+}
+
+.foggle-btn:hover{
+    background-color: whitesmoke;
+}
+
+
+
